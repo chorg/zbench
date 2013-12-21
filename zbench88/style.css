@@ -116,7 +116,7 @@ sidebar-border,#sidebar,
 
 #menus ul{list-style:none;}
 
-#menus li{float:left;position:relative;margin-right:5px;}
+#menus li{float:left;position:relative;margin-right:2px;}
 
 #menus li:hover > a{background:#222;color:#fff;}
 
@@ -198,13 +198,13 @@ sidebar-border,#sidebar,
 
 .post-page-nocomment{border-bottom:none;}
 
-h2.title{font-family:Microsoft YaHei,Arial,"Courier New",FixedSys;border-bottom:1px solid #fafafa;font-size:16px;line-height:24px;padding:1px 10px;color:#345;}
+h2.title{font-family:Arial,Aerdana,Simsun,"Courier New",FixedSys;border-bottom:1px solid #fafafa;font-size:16px;line-height:24px;padding:1px 10px;color:#345;}
 
 h2.title a{color:#345;}
 
 h2.title a:hover{color:#4a630f;}
 
-.entry{font-family:Microsoft YaHei,Arial,"Courier New",FixedSys;font-size:14px;line-height:22px;overflow:hidden;color:#313131;padding:0px 10px;}
+.entry{font-family:Helvetica,Verdana,Microsoft YaHei,Arial,"Courier New",FixedSys;font-size:14px;line-height:22px;overflow:hidden;color:#313131;padding:0px 10px;}
 
 .entry ul,.entry ol{margin:0 30px 22px;}
 
@@ -264,7 +264,7 @@ h2.title a:hover{color:#4a630f;}
 
 .comment-text pre{overflow:auto;width:97%;border-radius:5px;line-height:16px;margin:0 0 10px;padding:15px 5px 15px 0px;color:#555;font-family:Microsoft YaHei,"Courier New",FixedSys;font-size:12px;background:#fafafa;border:1px solid #ccc;border-left:5px solid #ccc;}
 
-.post-info-top{border-top:1px solid #010101;line-height:18px;height:18px;position:relative;color:#999;margin:0 0 22px;padding:2px 10px;overflow:hidden;display:block;}
+.post-info-top{border-top:2px solid #010101;line-height:18px;height:18px;position:relative;color:#999;margin:0 0 22px;padding:2px 10px;overflow:hidden;display:block;}
 
 .post-info-top-nocomment{height:1px;}
 
@@ -306,13 +306,13 @@ h2.sticky-h2 a{color:#ff4e00;}
 
 /* #sidebar-border */
 
-#sidebar-border{background:#f6f6f6;position:relative;float:right;width:308px;border-radius: 5px;border:1px solid #ccc;}
+#sidebar-border{background:#f5f3f2;position:relative;float:right;width:310px;border-right:1px solid #ccc;}
 
 .LorR #sidebar-border{float:left;}
 
 /* #rss */
 
-#rss_border{position:absolute;top:-12px;left:0;width:308px;height:24px;}
+#rss_border{position:absolute;top:-12px;left:0;width:310px;height:24px;}
 
 .rss_border{float:left;position:relative;top:0;left:50%;}
 
@@ -334,7 +334,7 @@ h2.sticky-h2 a{color:#ff4e00;}
 
 /* #sidebar */
 
-#sidebar{overflow:hidden;width:290px;padding:20px 10px 10px;}
+#sidebar{overflow:hidden;width:300px;padding:20px 5px 10px;}
 
 #sidebar a{color:#262626;}
 
@@ -342,7 +342,7 @@ h2.sticky-h2 a{color:#ff4e00;}
 
 #sidebar h3,#sidebar h2{color:#345;font-size:16px;margin:0;padding:0 5px;line-height:24px;border-bottom:1px solid #fff;}
 
-#sidebar li{line-height:20px;}
+#sidebar li{line-height:20px;border-bottom:1px dotted #e8ddcb;}
 
 #sidebar .widget{margin-bottom:10px;}
 
